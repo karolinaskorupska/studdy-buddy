@@ -14,6 +14,7 @@ const StudentProfile = ({ studentData: { name, group, age, grades } }) => {
       <Average value={avg}>{avg}</Average>
       <Content>
         <NameSection>
+         <h2>IMIE</h2>
           <h2>{name}</h2>
           <EditButton><EditIcon/></EditButton>
         </NameSection>
